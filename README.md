@@ -41,8 +41,3 @@ docker run -d discord-irc-relay -v ./config.json:/home/node/app/config.json
 docker-compose build
 docker-compose up -d
 ```
-
-```
-docker build -t discord-irc-relay
-docker run -d discord-irc-relay -v ./config.json:/home/node/app/config.json
-```
